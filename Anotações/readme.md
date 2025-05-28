@@ -63,5 +63,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 ````
 
-
+1. Para criar um novo projeto: abra o Android Studio, clique em New Project > Empty Activity > Next, digite um nome para o projeto e defina as configurações.
+1. Para ver a aparência do app, use o painel Preview.
+1. As funções de composição são como funções normais, com algumas diferenças: os nomes delas começam com letras maiúsculas, você adiciona a anotação @Composable antes da função, e as funções @Composable não podem retornar nada.
+1. Um Modifier pode ser usado para aumentar ou decorar um elemento combinável.
 
